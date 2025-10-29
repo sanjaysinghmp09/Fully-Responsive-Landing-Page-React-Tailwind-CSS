@@ -13,7 +13,7 @@ function FeatureSection() {
         { features.map ((feature, index) => (
           <div key={index} className="w-full md:w-1/2 lg:w-1/3 p-6">
             <div className="bg-neutral-900 p-6 rounded-lg h-full hover:shadow-lg hover:shadow-orange-400/20 transition-shadow duration-300">
-              <h3 className="text-xl font-semibold mb-4">{feature.icon}{feature.text}</h3>
+              <h3 className="text-xl font-semibold mb-4 ">{feature.icon}{feature.text}</h3>
               <p className="text-sm text-neutral-400">{feature.description}</p>
             </div>
           </div>
