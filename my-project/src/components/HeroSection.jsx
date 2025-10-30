@@ -12,7 +12,7 @@ function HeroSection() {
             </p>
             <div className="flex justify-center my-10">
                 <a href="#" className="bg-linear-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3 rounded-md">Start For Free</a>
-                <a href="" className="py-3 px-4 mx-3 rounded-md border">Documentation</a>
+                <a href="" className="py-3 px-4 mx-3 rounded-md border text-center">Documentation</a>
             </div>
             <div className="flex mt-10 justify-center ">
 
